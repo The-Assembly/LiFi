@@ -4,21 +4,21 @@
 
 Receiver Arduino Wiring:
 
-  •	Connect the pin on the receiver with the S to Pin 0 (Rx) on the Arduino as in the diagram.
+    •	Connect the pin on the receiver with the S to Pin 0 (Rx) on the Arduino as in the diagram.
   
-  •	Connect the pin on the receiver with the – to a GND on the Arduino as in the diagram.
+    •	Connect the pin on the receiver with the – to a GND on the Arduino as in the diagram.
   
-  •	Connect the middle pin on the receiver to 5V on the Arduino as in the diagram.
+    •	Connect the middle pin on the receiver to 5V on the Arduino as in the diagram.
   
 Sender Arduino Wiring:
 
-  •	First start by placing the IR Led on the breadboard.
+    •	First start by placing the IR Led on the breadboard.
   
-  •	Connect the negative leg of the led (shorter leg) to the GND rail.
+    •	Connect the negative leg of the led (shorter leg) to the GND rail.
   
-  •	Next connect the NPN Transistor’s Collector Leg on the positive leg of the LED.
+    •	Next connect the NPN Transistor’s Collector Leg on the positive leg of the LED.
   
-  •	From the base pin of the NPN transitor, connect a 1kΩ resistor and the other leg of the resistor to Pin 1 (Tx) on the sender Arduino.
+    •	From the base pin of the NPN transitor, connect a 1kΩ resistor and the other leg of the resistor to Pin 1 (Tx) on the sender Arduino.
   
   •	Also, from the Collector leg on the NPN Transistor, Connect a 100Ω resistor in between the LED positive leg and the Transistor’s legs. Connect the other end of the resistor to Pin 9 on the Arduino.
   
