@@ -3,8 +3,11 @@
 # Circuit Connections:
 
 Receiver Arduino Wiring:
+
   •	Connect the pin on the receiver with the S to Pin 0 (Rx) on the Arduino as in the diagram.
+  
   •	Connect the pin on the receiver with the – to a GND on the Arduino as in the diagram.
+  
   •	Connect the middle pin on the receiver to 5V on the Arduino as in the diagram.
   
 Sender Arduino Wiring:
