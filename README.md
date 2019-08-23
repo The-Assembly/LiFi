@@ -10,6 +10,8 @@ Receiver Arduino Wiring:
   
    • Connect the middle pin on the receiver to 5V on the Arduino as in the diagram.
   
+![Image of Receiver](https://github.com/The-Assembly/LiFi/blob/master/transmitter.jpg)  
+
 Sender Arduino Wiring:
 
    • First start by placing the IR Led on the breadboard.
@@ -23,6 +25,8 @@ Sender Arduino Wiring:
    • Also, from the Collector leg on the NPN Transistor, Connect a 100Ω resistor in between the LED positive leg and the Transistor’s legs. Connect the other end of the resistor to Pin 9 on the Arduino.
   
    • Finally, Connect the Emitter’s Leg to the GND rail through a jumper wire, and connect the rail to a GND Pin on the Arduino.
+  
+ ![Image of Receiver](https://github.com/The-Assembly/LiFi/blob/master/reciever.jpg)
   
 # Coding
 
